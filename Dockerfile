@@ -1,6 +1,6 @@
 FROM quay.io/ubi8:latest
 
-RUN yum install fio coreutils sysstat
+RUN yum install -y fio coreutils sysstat
 
 #COPY jobs /jobs
 VOLUME /data
