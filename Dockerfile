@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM quay.io/sebll/alpine:3.13
 
 RUN apk add --no-cache fio coreutils sysstat
 
