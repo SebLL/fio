@@ -1,6 +1,6 @@
-FROM registry.access.redhat.com/ubi8:latest
+FROM alpine:3.13
 
-RUN yum install -y fio coreutils sysstat
+RUN apk add --no-cache fio coreutils sysstat
 
 #COPY jobs /jobs
 VOLUME /data
