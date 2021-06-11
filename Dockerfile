@@ -1,4 +1,4 @@
-FROM quay.io/ubi8:latest
+FROM registry.access.redhat.com/ubi8:latest
 
 RUN yum install -y fio coreutils sysstat
 
